@@ -1,0 +1,67 @@
+.desktop-above {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #342F2F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 60px;
+    z-index: 1000;
+}
+.navbar {
+    margin: 0;
+}
+.desktop-above ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first-link {
+    background-color: #54A9E6;
+}
+.desktop-above ul li {
+    transition: .5s all ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px;
+    list-style: none;
+    height: 60px;
+}
+.desktop-above ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+}
+.desktop-above img {
+    width: 20%;
+}
+
+@media only screen and (min-width: 900px) {
+.desktop-above ul li a {
+    font-size: 18px;
+}
+.desktop-above img {
+    width: 15%;
+}
+}
+@media only screen and (min-width: 1200px) {
+.desktop-above ul li a {
+    font-size: 18px;
+}
+.desktop-above img {
+    width: 10%;
+}
+}
+
+.desktop-above ul li:hover {
+    background-color: #54A9E6;
+}

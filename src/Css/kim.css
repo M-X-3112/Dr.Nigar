@@ -1,0 +1,141 @@
+.panels {display: flex}
+.panel1 {
+    width: 50%;
+    background-color: #54A9E6;
+    height: 53px;
+}
+.panel2 {
+    width: 50%;
+    background-color: white;
+    height: 53px;
+}
+.kard-umumi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card1 {
+    order: 1;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+.card1-header {
+    padding: 20px 0;
+    font-weight:  bold;
+    font-size: 16px;
+    text-align: center;
+}
+.card1-text {
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+
+}
+.card2 {
+    order: 0;
+    width: 100%;
+    height: 300px;
+    background: url("../../public/images/card2.png") center/cover no-repeat;
+}
+.card3 {
+    order: 3;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+.card3-text {
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+
+}
+.card4 {
+    order: 2;
+    width: 100%;
+    height: 300px;
+    background: url("../../public/images/card4.png") center/cover no-repeat;
+}
+
+
+@media only screen and (min-width: 480px) {
+.card1 {
+    height: 350px;
+    padding: 15px;
+}
+.card1-header {
+    font-size: 18px;
+}
+.card1-text {
+    font-size: 16px;
+    line-height: 40px;
+}
+.card2 {
+    height: 350px;
+}
+.card3 {
+    height: 300px;
+    padding: 15px;
+}
+.card3-text {
+    font-size: 16px;
+    line-height: 40px;
+}
+.card4 {
+    height: 350px;
+}    
+}
+@media only screen and (min-width: 768px) {
+.kard-umumi {
+    flex-direction: row;
+    flex-wrap: wrap;
+}    
+.card1 {
+    width: 50%;
+    order: 0;
+    height: 400px;
+    padding: 20px;
+}
+.card1-header {
+    font-size: 22px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.card1-text {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.card2 {
+    width: 50%;
+    order: 1;
+    height: 400px;
+}
+.card3 {
+    width: 50%;
+    order: 3;
+    height: 400px;
+    padding: 20px;
+}
+.card3-text {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.card4 {
+    width: 50%;
+    order: 2;
+    height: 400px;
+}
+}
+@media only screen and (min-width: 1280px) {}

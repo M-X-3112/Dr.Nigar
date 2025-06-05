@@ -1,0 +1,39 @@
+.meqaleHeader {
+    display: flex;
+    width: 100%;
+    padding: 15px 0px;
+    justify-content: center;
+    align-items: center;
+    background: #342F2F;
+    height: 60px;
+}
+
+.meqaleHeader h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Mluvka;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+
+@media only screen and (min-width: 480px) {
+.meqaleHeader h1 {
+    font-size: 22px;
+}
+
+}   
+
+@media only screen and (min-width: 768px) {
+.meqaleHeader h1 {
+    font-size: 24px;
+}
+}
+
+@media only screen and (min-width: 1280px) {
+.meqaleHeader h1 {
+    font-size: 26px;
+}
+}

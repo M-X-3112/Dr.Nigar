@@ -1,0 +1,68 @@
+.h-mobile {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: 0px 10px;
+    justify-content: space-between;
+    align-items: center;
+    background: #342F2F;
+    height: 60px;
+    z-index: 1001;
+}
+.h-mobile img {
+    width: 40%;
+    max-width: 150px;
+}
+.menubar {
+    color: #fff;
+    font-size: 1.8rem;
+    transition: transform 0.5s ease;
+}
+.rotate {
+    transform: rotate(-45deg);
+}
+.menu-mobil {
+    z-index: 1000;
+    position: fixed;
+    top: -220px;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    background: #246797b7;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    transition: .5s all ease;
+}
+.visible1 {
+    top: 60px;
+}
+.menu-mobil li {
+    padding-left: 10px;
+    margin: 9px 0;
+    display: flex;
+    width: 100%;
+    list-style: none;
+}
+.menu-mobil li a {
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+@media only screen and (min-width:480px) {
+.h-mobile {
+    padding: 0px 15px;
+}
+.menubar {
+    font-size: 2rem;
+}
+.menu-mobil li a {
+    font-size: 20px;
+}
+
+}

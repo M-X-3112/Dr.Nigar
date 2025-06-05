@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Mluvka';
+  src: url('./assets/fonts/Mluvka-ExtraLight-BF65518ac7eb0fe.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mluvka';
+  src: url('./assets/fonts/Mluvka-ExtraLightItalic-BF65518ac82ac8a.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Mluvka';
+  src: url('./assets/fonts/Mluvka-Light-BF65518ac849790.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mluvka';
+  src: url('./assets/fonts/Mluvka-LightItalic-BF65518ac8bc189.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Mluvka';
+  src: url('./assets/fonts/Mluvka-Regular-BF65518ac8463f5.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mluvka';
+  src: url('./assets/fonts/Mluvka-Italic-BF65518ac838b27.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Mluvka';
+  src: url('./assets/fonts/Mluvka-Medium-BF65518ac864edb.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mluvka';
+  src: url('./assets/fonts/Mluvka-MediumItalic-BF65518ac8bbcba.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Mluvka';
+  src: url('./assets/fonts/Mluvka-SemiBold-BF65518ac864155.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mluvka';
+  src: url('./assets/fonts/Mluvka-SemiBoldItalic-BF65518ac86ed6c.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Mluvka';
+  src: url('./assets/fonts/Mluvka-Bold-BF65518ac8cff8c.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mluvka';
+  src: url('./assets/fonts/Mluvka-BoldItalic-BF65518ac840460.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Mluvka';
+  src: url('./assets/fonts/Mluvka-ExtraBoldItalic-BF65518ac8b0001.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+body {
+  font-family: 'Mluvka', sans-serif;
+  font-weight: 400;
+}

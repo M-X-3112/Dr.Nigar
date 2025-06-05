@@ -1,0 +1,129 @@
+.xidmetler {
+    z-index: 0;
+}
+.x-line {
+    width: 100%;
+    height: 56px;
+    background: #342F2F;
+}
+.xidmetler h1 {
+    color: #342F2F;
+    text-align: center;
+    font-family: Mluvka;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+.novler {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.xidmet1 {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.altx {
+    position: relative;
+    left: 20px;
+    border: 2px solid #246EA4;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    height: 50px;
+    width: 220px;
+}
+.altx p {
+    color: #246EA4;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+.altx2 {
+    position: relative;
+    right: 20px;
+    background-color: #246EA4;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    height: 50px;
+    width: 220px;
+    top: -5px;
+}
+.altx img {
+    width: 30px;
+    margin-right: 10px;
+}
+.altx2 p {
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+}
+
+
+
+@media only screen and (min-width: 480px) {
+    .xidmetler h1 {
+        font-size: 24px;
+    }
+    .novler {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .xidmet1 {
+        margin: 25px;
+    }
+    .altx {
+        height: 55px;
+        width: 240px;
+    }
+.altx p {
+    font-size: 16px;
+}
+.altx2 {
+    height: 55px;
+    width: 240px;
+}
+.altx2 p {
+    font-size: 16px;
+}
+
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    .xidmetler h1 {
+        font-size: 26px;
+    }
+    .altx {
+        width: 260px;
+    }
+    .altx2 {
+        width: 260px;
+    }
+}
+
+
+@media only screen and (min-width: 1280px) {
+    .novler {
+        gap: 30px;
+    }
+    .xidmetler h1 {
+        font-size: 30px;
+    }
+    .altx {
+        width: 340px;
+    }
+    .altx2 {
+        width: 340px;
+        top: -10px;
+    }
+    
+}

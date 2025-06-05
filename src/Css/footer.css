@@ -1,0 +1,306 @@
+.f1 {
+    display: flex;
+    width: 100%;
+    padding: 15px 0px;
+    justify-content: center;
+    align-items: center;
+    background: #246EA4;
+    height: 60px;
+}
+
+.f1 h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Mluvka;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+.f2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+.contact-line {
+    display: flex;
+    align-items: center;
+}
+.contact-line img {
+    width: 20px;
+    margin-right: 5px;
+}
+.contact-line p {
+    margin: 0;
+    font-size: 12px;
+    line-height: 40px;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.social-media {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.icons-s {
+  background-color: #246EA4;
+  border-radius: 50%;
+  padding: 8px;
+  transition: all 0.3s ease;
+}
+.social-media h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.social-accounts {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.contact-right input {
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    margin: 5px 0;
+    padding: 0px 10px;
+    font-size: 12px;
+    font-family: Mluvka;
+    outline: none;
+    border: 2px solid #333;
+}
+.contact-right textarea {
+    width: 90%;
+    height: 150px;
+    border-radius: 10px;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 12px;
+    font-family: Mluvka;
+    outline: none;
+    border: 2px solid #333;
+}
+.contact-right button {
+    transition: .5s transform ease;
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: 0;
+    margin-top: 5px;
+    background-color: #246EA4;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+
+.f3 {
+    display: flex;
+    width: 100%;
+    padding: 15px 0px;
+    justify-content: center;
+    align-items: center;
+    background: #246EA4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo-tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+}
+.f3 img {
+    width: 120px;
+}
+.f3 p {
+    line-height: 30px;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 480px) {
+.f1 h1 {
+    font-size: 22px;
+}
+.contact-line img {
+    width: 22px;
+}
+.contact-line p {
+    font-size: 14px;
+}
+.social-media h4 {
+    font-size: 20px;
+}
+.social-accounts {
+    width: 50%;
+}
+form {
+    align-items: flex-start;
+}
+.inputs {
+    align-items: flex-start;
+}
+.contact-right input {
+    width: 70%;
+    font-size: 14px;
+}
+.contact-right textarea {
+    width: 70%;
+    font-size: 14px;
+}
+.contact-right button {
+    width: 70%;
+    font-size: 16px;
+}
+
+.f3 img {
+    width: 140px;
+}
+.f3 p {
+    font-size: 16px;
+}
+.f3 .up-button {
+    width: 35px;
+    height: 35px;
+}
+}
+
+
+@media only screen and (min-width: 768px) {
+.f1 h1 {
+    font-size: 24px;
+}
+.f2 {
+    flex-direction: row;
+}
+.contact-left, .contact-right {
+    width: 50%;
+}
+.contact-line img {
+    width: 20px;
+}
+.contact-line p {
+    font-size: 16px;
+}
+.social-accounts {
+    width: 50%;
+}
+.inputs {
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+}
+.contact-right input {
+    width: 48%;
+}
+.contact-right textarea {
+    width: 80%;
+}
+.contact-right button {
+    width: 80%;
+}
+
+.f3 {
+    flex-direction: row;
+    position: relative;
+}
+.f3 .up-button {
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    transform: translateY(-50%);
+}
+.f3 img {
+    width: 160px;
+}
+.f3 p {
+    font-size: 18px;
+}
+}
+
+
+
+@media only screen and (min-width: 1280px) {
+.f1 h1 {
+    font-size: 26px;
+}
+.contact-line img {
+    width: 22px;
+}
+.contact-line p {
+    font-size: 18px;
+}
+.social-accounts {
+    width: 40%;
+}
+form {
+    align-items: center;
+}
+.inputs {
+    width: 60%;
+}
+.contact-right input {
+    width: 48%;
+    height: 40px;
+}
+.contact-right textarea {
+    width: 60%;
+}
+.contact-right button {
+    width: 60%;
+    height: 50px;
+}
+.f3 img {
+    width: 170px;
+}
+.f3 p {
+    font-size: 20px;
+}
+}
+.icons-s:hover {
+  background-color: #2079c7;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+form button:hover {
+    background-color: #2079c7;
+    transform: scale(1.05);
+
+}

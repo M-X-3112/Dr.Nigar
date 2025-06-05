@@ -1,0 +1,94 @@
+.ugurlarimiz {
+    display: flex;
+    width: 100%;
+    padding: 15px 0px;
+    justify-content: center;
+    align-items: center;
+    background: #246EA4;
+    height: 60px;
+}
+
+.ugurlarimiz h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Mluvka;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+.ugurlar {
+  background: url("../../public/images/ugurb.png") no-repeat center/cover;
+  height: 481px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ugur1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 50%;
+    height: 130px;
+    margin: 10px;
+}
+.ugur1 img {
+    width: 90px;
+}
+.ugur1 p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+
+
+@media only screen and (min-width: 480px) {
+.ugurlarimiz h1 {
+    font-size: 22px;
+}
+.ugur1 {
+    width: 60%;
+}
+.ugur1 img {
+    width: 95px;
+}
+.ugur1 p {
+    font-size: 18px;
+}
+}   
+
+@media only screen and (min-width: 768px) {
+.ugurlarimiz h1 {
+    font-size: 24px;
+}
+.ugurlar {
+    flex-direction: row;
+}
+.ugur1 {
+    width: 33%;
+}
+.ugur1 img {
+    width: 100px;
+}
+.ugur1 p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+}
+
+@media only screen and (min-width: 1280px) {
+.ugurlarimiz h1 {
+    font-size: 26px;
+}
+.ugur1 img {
+    width: 105px;
+}
+.ugur1 p {
+    font-size: 22px;
+}
+}

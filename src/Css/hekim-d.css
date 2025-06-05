@@ -1,0 +1,97 @@
+.desktop-d {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+.bckgrnd-d {
+    width: 40%;
+    background: url("../../public/images/Vector1.svg") center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nigar-d {
+    width: 100%;
+    max-width: 300px;
+}
+.back-d2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: url("../../public/images/Group 15.jpg") center/cover no-repeat;
+    width: 10%;
+    height: 300px;
+    padding: 30px 10px;
+}
+.nameLogo-d {
+    width: 100%;
+}
+.bck-p1-d {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-shadow: 0 0 10px #222;
+    text-align: center;
+    margin: 10px 0;
+}
+.bck-p2-d {
+    margin: 20px 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-shadow: 0 0 10px #222;
+    text-align: center;
+}
+.btn-back-d {
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #54A9E6;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 6px #444444ac;
+}
+
+
+@media only screen and (min-width: 900px) {
+.nameLogo-d {
+    width: 80%;
+}
+.bck-p1-d {
+    font-size: 18px;
+}
+.bck-p2-d {
+    font-size: 18px;
+}
+.btn-back-d {
+    width: 180px;
+    font-size: 18px;
+} 
+}
+
+@media only screen and (min-width: 1200px) {
+.nameLogo-d {
+    width: 70%;
+}
+.bck-p1-d {
+    font-size: 20px;
+}
+.bck-p2-d {
+    font-size: 20px;
+}
+.btn-back-d {
+    width: 200px;
+    font-size: 20px;
+} 
+}
