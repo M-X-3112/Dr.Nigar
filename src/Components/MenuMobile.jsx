@@ -1,9 +1,9 @@
 import "../Css/hmobile.css"
-import scrolltoId from "../utils/scrolltoID";
+import scrolltoID from "../utils/scrolltoID";
 function MenuMobile({open, setOpen}) {
   const handleScroll2 = (e,id) => {
     e.preventDefault();
-    scrolltoId(id);
+    scrolltoID(id);
     setOpen(!open)
   }
   
