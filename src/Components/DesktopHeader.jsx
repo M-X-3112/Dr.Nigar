@@ -1,10 +1,10 @@
 import "../Css/desktophead.css"
 import loggo from "../../public/images/Dr. Nigar.svg"
-import scrolltoID from "../utils/scrolltoID";
+import scrollname from "../utils/scrollname";
 function HeaderMobile() {
   const handleScroll = (e,id) => {
     e.preventDefault();
-    scrolltoID(id)
+    scrollname(id)
   }
   return (
     <div className='desktop-above'>
