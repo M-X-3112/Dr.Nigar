@@ -1,4 +1,3 @@
-import React from 'react'
 import Ugurlarimiz from './Ugurlarimiz'
 import Ugurlar from './Ugurlar'
 import MeqaleHeader from './MeqaleHeader'

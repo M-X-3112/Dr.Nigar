@@ -1,4 +1,3 @@
-import React from 'react'
 import m1 from "../../public/images/m1.jpg"
 import "../Css/m1.css"
 

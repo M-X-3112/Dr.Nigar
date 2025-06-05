@@ -1,4 +1,3 @@
-import React from 'react'
 import "../Css/xidmetler.css"
 import check from "../../public/images/check.svg"
 

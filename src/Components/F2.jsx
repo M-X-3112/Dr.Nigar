@@ -1,4 +1,3 @@
-import React from 'react'
 import "../Css/footer.css"
 import location from "../../public/images/Location.svg"
 import phone from "../../public/images/Phone.svg"

@@ -1,4 +1,3 @@
-import React from 'react'
 import "../Css/footer.css"
 import logoMain from "../../public/images/Dr. Nigar.svg"
 import { FaChevronUp } from 'react-icons/fa'

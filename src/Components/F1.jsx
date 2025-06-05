@@ -1,4 +1,3 @@
-import React from 'react'
 import "../Css/footer.css"
 
 function F1() {
